@@ -18,7 +18,7 @@ console.log(`${process.env.MYSQLHOST},${process.env.MYSQLUSER},${process.env.MYS
 
 
 app.get('/', (req, res) => {
-  res.send('🥲 The server is running!')
+  res.send('The server is running! V.1')
 });
 
 
